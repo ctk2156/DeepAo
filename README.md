@@ -11,6 +11,7 @@ We use 3dsMax with Vray engine to generate our dataset. Our AO dataset contain A
   + AO map: Configure the Vray engine according to the instructions [here](http://www.laurenscorijn.com/articles/ambient-occlusion-baking)  for bake Ambient Occlusion Map(Method 4 or 5, It depends on your needs).  
   + Position map: VRaySamplerInfo is recommended instead of VrayZDepth, because the depth value obtained by VrayZDepth is nonlinear.You can get the xyz coordinates of each point from VRaySamplerInfo. Our experiment only use Z coordinates(Z depth).   
   + Normal map: You can use VRaySamplerInfo or VRayNormals, VRaySamplerInfo can generate normal in camera space and world space. VRayNormals can only generate normal in camera space. Our experiment use normal in camera space.  
+  
 3.Planned shooting path and bind camera.    
 4.Use Batch Render to render the scene.  
    
