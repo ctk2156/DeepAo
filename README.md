@@ -5,8 +5,9 @@ This repo contain generating Ambient Occlusion via a CNN and disploy it in Unity
 
 ## Dataset Sample Visualization
 ![Image text](https://raw.githubusercontent.com/dokju15692002156/DeepAo/master/Dataset%20Demo/DATASET.png)  
-[Download link:](https://pan.baidu.com/s/1hRUiFIEL16a2tE-0I_7Tsg)  
-Extract Code：txja
+Download from [here](https://pan.baidu.com/s/1hRUiFIEL16a2tE-0I_7Tsg)  
+Extract Code：txja  
+
 
 ## Dataset Generation Pipline  
 We use 3dsMax with Vray engine to generate our dataset. Our AO dataset contain Ao map and corresponding Depth map and Normal map. You can make your own dataset by following these steps:   
