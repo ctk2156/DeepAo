@@ -5,7 +5,7 @@ This repo contain generating Ambient Occlusion via a CNN and disploy it in Unity
 
 ## Dataset Sample Visualization
 ![Image text](https://raw.githubusercontent.com/dokju15692002156/DeepAo/master/Dataset%20Demo/DATASET.png)  
-[Download](git@github.com:ctk2156/Datasets.git)  
+[Download](https://github.com/ctk2156/Datasets/tree/master/DeepAoDataset)  
 
 
 
